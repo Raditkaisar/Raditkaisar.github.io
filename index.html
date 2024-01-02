@@ -1,0 +1,124 @@
+<DOCTYPE html>
+  <html>
+    <head>
+      <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+  <div class="ga">
+<nav> 
+     <ul> 
+      <li><a href="#home">About</a></li> 
+      <li><a href="#Skills">Skills</a></li> 
+      <li><a href="#certificate">Certificate</a></li> 
+      <li><a href="#Contact">Contact</a></li> 
+     </ul> 
+     <img src="https://i.postimg.cc/7P2Lw0PG/moon.png" id="icon">
+    </nav> 
+    </div>
+ <h2 class="txt" id="home">Who I am ?</h2> 
+    <img class="img" src="https://i.postimg.cc/bYSyLX7T/IMG-20231224-114501.jpg"> 
+   <div class="container">
+     <h2>I'm <span class="auto-type"></span></h2>
+   </div>
+    <p class="para">Hello everyone, this is my portfolio website. introduce my name is Muhammad Radit kaisar, I am a vocational student majoring in basic computer and network engineering, my age is 18 years old, that's a brief introduction from me, thank you.
+</p>
+    <h1 style="text-align: center;" id="Skills">Skills</h1>
+      <div class="html">
+            <p>HyperText Markup Language</p>
+            <div class="progress" style="height: 23px">
+              <div
+                class="progress-bar"
+                role="progressbar"
+                style="width: 80%"
+                aria-valuenow="25"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                80%
+              </div>
+            </div>
+          </div>
+          <div class="css">
+            <p>Cascading Style Sheet</p>
+            <div class="progress" style="height: 23px">
+              <div
+                class="progress-bar"
+                role="progressbar"
+                style="width: 70%"
+                aria-valuenow="25"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                70%
+              </div>
+            </div>
+          </div>
+          <div class="javascript">
+            <p>Javascript</p>
+            <div class="progress" style="height: 23px">
+              <div
+                class="progress-bar"
+                role="progressbar"
+                style="width: 30%"
+                aria-valuenow="25"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                30%
+              </div>
+            </div>
+          </div>
+          <h1 style="text-align: center;" id="certificate">Certificate </h1>
+  <div class="base">
+        <img class="pics one" src="https://i.postimg.cc/TYrr87YN/20231021-120939-0000.png" alt="">
+        <img class="pics two" src="https://i.postimg.cc/X7v5rjVF/022d906f-c525-41d8-9b6e-cef99a8e0814-pdf-20231129-203229-0000.png" alt="">
+        <img class="pics three" src="https://i.postimg.cc/NG8hKtNg/Introduction-to-CSS-certificate.jpg" alt="">
+        <img class="pics four" src="https://i.postimg.cc/x8p3Xqhx/Introduction-to-Java-Script-certificate.jpg" alt="">
+    </div>
+         <h1 style="text-align: center;" id="Contact">Contact</h1>
+  <div class="contact-col">
+    <form action="">
+      <input type="text" name="name" placeholder="Enter your name" required>
+      <input type="email" name="email" placeholder="Enter your email address" required>
+      <input type="text" name="subject" placeholder="Enter your subject" required>
+      <textarea rows="8" name="message" placeholder="message" required></textarea>
+      <button type="Submit" class="btn">Send message</button>
+    </form>
+  </div>
+  <div class="conn">
+      <a href="https://github.com/raditkaisar14"
+       target="_blank"><img class="github" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLiPK9w-38dk7xDrz_m-y9Oxo9q2yINMo_yQ&amp;usqp=CAU"></a>
+  </div>
+       <footer class="footer">
+        <div class="footer-text">
+            <p>Made by  &copy; Raditkaisar | All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>   
+          
+          
+          
+   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+   <script>
+   var icon = document.getElementById("icon");
+   icon.onclick = function(){
+     document.body.classList.toggle("dark-theme");
+     if(document.body.classList.contains("dark-theme")){
+       icon.src = "https://i.postimg.cc/3RLxNF4m/sun.png";
+     }else{
+       icon.src = "https://i.postimg.cc/7P2Lw0PG/moon.png";
+     }
+   }
+   
+     var typed = new Typed(".auto-type", {
+       strings: ["Radit", "Front end developer", "Network engineering"],
+       typeSpeed: 150,
+       backSpeed: 150,
+       loop: true
+     })
+   </script>
+   </body>
+   </html>
